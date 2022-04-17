@@ -1,0 +1,225 @@
+/* ここから下に記載していく */
+@charset "UTF-8";
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 1200px;
+    color: #222222;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.title2{
+    position: relative;
+    padding: auto;
+}
+
+h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    
+}
+h2{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.field{
+    display: flex;
+}
+.logo{
+    margin: auto;
+}
+nav{
+    margin: 50px 0;
+    text-align: right;
+    
+}
+a{
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    margin: 50px 25px;
+}
+a:hover{
+    color: blue;
+}
+
+ /* about */
+.about-wrapper{
+    width: 800px;
+    margin: auto;
+}
+.title-wrap{
+    margin: 60px 0 30px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: gold;
+}
+h4{
+    font-size: 18px;
+    margin: 0 0 60px;
+}
+.about1{
+    margin: 40px 0 0 0;
+}
+
+.pic{
+    display: flex;
+    margin: 60px 0 80px 0;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ /* course */
+ 
+.course{
+     padding: 0 0 60px;
+ }
+.course1{
+     display: flex;
+ }
+
+.detail1{
+     width: 480px;
+     padding: 120px 50px;
+
+ }
+
+.pic2{
+    width: 580px;
+}
+/* news */
+.news{
+    width: 300px;
+    margin: 15px;
+}
+.news:hover{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+	transform: translateY(-0.1875em);
+}
+
+.pizzanews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit{
+    background-color: gold;
+    color: aliceblue;
+    width: 300px;
+    height: 60px;
+    border: none;
+    font-size: 18px;
+}
+.submit:hover{
+    background: blue;
+
+}
+.button{
+    text-align: center;
+    margin: 60px;
+}
+
+footer{
+    height: 60px;
+    background-color: dimgray;
+    color: aliceblue;
+    margin: 80px 0 0 0;
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+/* ACCESS */
+iframe{
+    margin: 60px auto;
+
+}
+
+table{
+    margin: auto;
+}
+th {
+    text-align: left;
+    width:  200px;              /* 幅指定 */
+    height: 60px;               /* 高さ指定 */
+}
+td{
+    text-align: left;
+}
+.maps{
+    text-align: center;
+}
+
+/* CONTACT */
+.contact{
+    margin: 60px 0 30px;
+}
+.form{
+    text-align: center;
+}
+
+.contact-tabel{
+    margin: 70px 0 30px 0;
+    font-size: 12px;
+    border-color: #bfbfbf;
+    display: inline-block;
+    padding: auto;
+}
+.contact-item,
+.contact-body {
+    border: 1px solid black;
+    border-left: transparent;
+    border-right: transparent;
+}
+.contact-item{
+    width: 240px;
+    padding: 0 64px 0 16px;
+    text-align: left;
+    border-right: 1px solid black;
+}
+.contact-body{
+    width: 400px;
+    padding: 8px 0px 8px 8px;
+    text-align: left;
+}
+.form-text{
+    width: 328px;
+    height: 36px;
+    border: 1px solid #bfbfbf;
+}
+.form-select{
+    width: 328px;
+    height: 36px;
+    border: 1px solid #bfbfbf;
+
+}
+.form-textarea{
+    width: 328px;
+    height: 100px;
+    border: 1px solid #bfbfbf;
+}
